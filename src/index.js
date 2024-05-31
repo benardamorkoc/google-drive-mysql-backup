@@ -1,5 +1,5 @@
-const generateMysqlDump = require('./lib/mysqlDump');
-const uploadFileOnGoogleDrive = require('./lib/googleDrive');
+const generateMysqlDump = require('../lib/mysqlDump');
+const uploadFileOnGoogleDrive = require('../lib/googleDrive');
 
 /**
  * Creates a MySQL database dump and uploads it to Google Drive.
